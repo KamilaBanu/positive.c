@@ -3,12 +3,11 @@
 void main()
 {
    char str[100];
-   int i = 0, l = 0, f = 1;
-   puts("Enter any string\n");
+   int i = 0, s= 0;
    gets(str);
    for(i = 0; str[i] !='\0'; i++)
    {
-      l = l + 1;
+      s = s + 1;
    }
-   printf("%d", l);
+   printf("%d", s);
    }
