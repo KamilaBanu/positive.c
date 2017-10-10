@@ -11,12 +11,4 @@ void main()
       l = l + 1;
    }
    printf("%d", l);
-   for(i = 0; i <= l-1; i++)
-   {
-      if(str[i] == ' ')
-      {
-    f = f + 1;
-      }
    }
-   printf("%d", f);
-}
